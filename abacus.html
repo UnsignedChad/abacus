@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Abacus Simulator</title>
+    <script src='./abacus.js'></script>
+    <script type="text/javascript">
+      function run() {
+        var abacus = new Abacus("myAbacus", 2);
+        abacus.init();
+      }
+    </script>
+  </head>
+  <body onload="run();">
+    <h1>Japanese Abacus Simulator (Soroban)</h1>
+    <div id="myAbacus"> </div>
+
+  </body>
+</html>
