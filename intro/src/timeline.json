@@ -1,0 +1,91 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "scenes": {
+    "letter":    {"from": 0,    "duration": 600},
+    "road":      {"from": 600,  "duration": 390},
+    "town":      {"from": 990,  "duration": 450},
+    "steel":     {"from": 1440, "duration": 240},
+    "depths":    {"from": 1680, "duration": 360},
+    "cathedral": {"from": 2040, "duration": 720},
+    "title":     {"from": 2760, "duration": 390}
+  },
+  "total": 3150,
+  "cues": {
+    "letter": {
+      "candleLight": 30,
+      "writingStart": 75,
+      "writingEnd": 450,
+      "signatureDone": 480,
+      "candleGust": 510,
+      "fadeOutEnd": 590
+    },
+    "road": {
+      "fadeInEnd": 30,
+      "crowCaw": 95,
+      "line1": [45, 165],
+      "line2": [190, 330],
+      "distantBell": 300,
+      "fadeOutStart": 365
+    },
+    "town": {
+      "fadeInEnd": 30,
+      "locationTitle": 45,
+      "locationTitleEnd": 165,
+      "line1": [190, 300],
+      "line2": [310, 420],
+      "signCreak": 150,
+      "churchRumble": 400,
+      "fadeOutStart": 425
+    },
+    "steel": {
+      "heartbeats": [20, 52, 84, 112, 138, 162, 184],
+      "line1": [30, 205],
+      "swordDraw": 120,
+      "bladeGlint": 132,
+      "cutToBlack": 225
+    },
+    "depths": {
+      "fadeInEnd": 12,
+      "stepEvery": 12,
+      "stepsStart": 20,
+      "stepsEnd": 200,
+      "monsterSpotted": 110,
+      "line1": [30, 150],
+      "line2": [170, 290],
+      "runeHum": 210,
+      "runeDoorOpen": 280,
+      "flash": 345
+    },
+    "cathedral": {
+      "fadeInEnd": 30,
+      "eyesIgnite": 120,
+      "kingRises": 150,
+      "roar": 170,
+      "circleStart": 210,
+      "swing1": 300,
+      "roll": 305,
+      "windup": 360,
+      "windupGlint": 400,
+      "parry": 432,
+      "slowmoEnd": 480,
+      "riposte": 500,
+      "stagger": 520,
+      "crownFall": 540,
+      "crownBounces": [570, 585, 598],
+      "crownRest": 620,
+      "phase2": 630,
+      "cutToBlack": 690
+    },
+    "title": {
+      "titleBoom": 20,
+      "subtitleIn": 90,
+      "taglineIn": 170,
+      "copyrightIn": 120,
+      "finalBell": 300,
+      "fadeOutStart": 330,
+      "fadeOutEnd": 380
+    }
+  }
+}
