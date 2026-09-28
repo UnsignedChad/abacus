@@ -1,0 +1,27 @@
+{
+  "name": "clogheen-intro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cinematic intro video for Clogheen, built with Remotion",
+  "scripts": {
+    "studio": "npm run audio && remotion studio",
+    "audio": "node scripts/make-audio.mjs",
+    "analyze-audio": "node scripts/analyze-audio.mjs",
+    "render": "npm run audio && remotion render ClogheenIntro out/clogheen-intro.mp4 --crf=23 --x264-preset=slow",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remotion/cli": "4.0.529",
+    "@remotion/fonts": "4.0.529",
+    "@remotion/noise": "4.0.529",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}

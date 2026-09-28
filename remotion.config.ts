@@ -4,6 +4,8 @@ import {Config} from '@remotion/cli/config';
 Config.setVideoImageFormat('jpeg');
 Config.setJpegQuality(92);
 Config.setOverwriteOutput(true);
+// Standard broadcast-range BT.709 output so dark scenes look the same in every player.
+Config.setColorSpace('bt709');
 
 // Prefer an explicit browser, then the preinstalled headless shell, so renders
 // work without downloading Chrome.
